@@ -1,0 +1,104 @@
+.container {color: rgb(0, 0, 0);
+
+}
+
+.red {
+    background-color: lightcoral;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.yellow {
+    background-color: rgb(245, 245, 133);
+}
+
+.cyan {
+    background-color: rgb(150, 250, 250);
+}
+
+.purple {
+    background-color: plum;
+}
+.floater-section {
+float: left;
+width: 100%;
+min-height: 200px;
+margin-bottom: 20px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/******small screen******/ 
+
+@media (min-width: 450px){
+    .floater-section{
+        width: 50%;
+    }
+    .small-width-100{
+        width: 100%;
+    }
+
+    .small-width-50{
+        width: 50%;
+    }
+
+    .small-width-33{
+        width: 33.3333%;
+    }
+
+    .small-width-25{
+        width: 25%;
+    }
+
+}
+
+/******medium screen******/ 
+
+@media (min-width: 768px) {
+    .floater-section {
+     width: 33.3333%    
+    }
+   
+    .med-width-100 {
+        width: 100%;
+    }
+    .med-width-50 {
+        width: 50%;
+    }
+    .med-width-33 {
+        width: 33.3333%;
+    }
+    .med-width-25{
+        width: 25%;
+    }
+}
+
+/******large screen******/ 
+
+@media (min-width: 768px) {
+    .floater-section {
+     width: 25%    
+    }
+
+    .large-width-100 {
+        width: 100%;
+    }
+    .large-width-50 {
+        width: 50%;
+    }
+    .large-width-33 {
+        width: 33.3333%;
+    }
+
+    .large-width-25{
+        width: 25%;
+    }
+}
